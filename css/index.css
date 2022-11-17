@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-inner{
+    height: 200px;
+   }
+
+.welcome{
+    color: rgb(255, 255, 255);
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-more{
+    background-color: rgb( 20, 58, 121);
+}
+
+.info{
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb( 20, 58, 121);
+}
+
+.cardspace{
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+
+/* SECTION INFORMATION */
+.information-company, .slice-image{
+    background-color: rgb(230, 232, 235);
+}
+
+
+/* TEXT ANIMATION */
+.word {
+    margin: auto;
+    color: white;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  }
+  
