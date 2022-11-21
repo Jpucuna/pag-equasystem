@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/index.css">
     <title>Document</title>
@@ -21,43 +22,63 @@
             <i class="material-icons" style="margin-right: 5px;">mail</i>
             <h3>info@QuickSilverSystems.com</h3>
           </div>
-        </div>  
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
-              <a class="navbar-brand" href="#"><img class="img-fluid" src="../assets/img/EquaSystems.jpg" alt="logo" width="10%"></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item ">
-                      <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        </div> 
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white !important;">
+          <div class="container-fluid nav-home">
+            <a class="navbar-brand" href="#"><img src="../assets/img/EquaSystems.jpg" alt="" width="120rem" height="60rem"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav " id="navbarNav"m style="font-size: 13px; font-weight: bolder;">
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+                    
                   </li>
-                  <li class="nav-item ">
-                    <a class="nav-link" href="#">Servicios <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Nosotros
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </li>
-                  <li class="nav-item ">
-                      <a class="nav-link" href="#">Productos <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item ">
-                      <a class="nav-link" href="#">Contactanos <span class="sr-only">(current)</span></a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="./company Information/company-information.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company Information <span class="sr-only">(current)</span></a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Business Partners</a>
+                    <a class="dropdown-item" href="#">Employee Bios</a>
+                    <a class="dropdown-item" href="/html/company Information/company-information.html">Contact Us</a>
+
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    System Information
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Press Releases <span class="sr-only">(current)</span></a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Archives</a>
+                    <a class="dropdown-item" href="#">Recent News</a>
+                    <a class="dropdown-item" href="#">Social Media</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Insurance Software Providers <span class="sr-only">(current)</span></a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Competitors</a>
+                    <a class="dropdown-item" href="#">Agency Systems</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </section>
+
+
     <section class="slice-image item ">
       <div class="img-fluid">
         <div class="cont-welcome">
@@ -79,7 +100,7 @@
 
     <section class="information-company" style="height: 50%; background-color: white;">
         <div class="info">
-            <h2 style="font-size: 2.5rem; padding-top: 2px; font-family: Raleway">Our Business Partners</h2>
+            <h2 style="font-size: 2.5rem; padding-top: 2px; font-family: Raleway"></h2>
         </div>
         <div class="container-flex">
             <div class="container-partners">
@@ -335,8 +356,8 @@
   </section>
     
 <section class="system-information">
-  <div class="cont-system">
-    <div style="text-align: center;">
+  <div class="cont-system" >
+    <div style="text-align: center;  margin-top: 20%;">
       <h1>SYSTEM INFORMATION</h1>
     </div>
     <div class="cards-system">
@@ -381,6 +402,8 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus maxime quos quia commodi, explicabo perferendis qui obcaecati mollitia a vel reprehenderit non earum ipsam enim animi vero recusandae. Velit, aliquam?</p>
         </div>
       </div>
+
+      <br>
     </div>
  </div> 
 </section>
@@ -390,7 +413,7 @@
     <div style="text-align: center;">
       <h1 style="padding-bottom: 5%;">PRESS RELEASES</h1>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 rel-cont">
             <img src="../assets/img-releases/Glass_Award_Small.jpg" alt="..." width="100%">
             <div class="release-text" style="text-align: left;">
               <h6 style="font-weight: bold;">Lorem ipsum dolor sit amet consectetur</h6>
@@ -401,7 +424,7 @@
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 rel-cont">
           <img src="../assets/img-releases/partner-1.png" alt="..." width="100%">
           <div class="release-text" style="text-align: left;">
             <h6 style="font-weight: bold;">Lorem ipsum dolor sit amet consectetur</h6>
@@ -412,7 +435,7 @@
           </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 rel-cont">
         <img src="../assets/img-releases/partner-3-lg.gif" alt="..." width="100%">
         <div class="release-text" style="text-align: left;">
           <h6 style="font-weight: bold;">Lorem ipsum dolor sit amet consectetur</h6>
@@ -503,6 +526,7 @@
   </div>
 </section>
 
+
 <footer class="footer">
   <div class="footer-top">
     <div class="container">
@@ -539,9 +563,9 @@
             <div class="foot-social foot-common">
               <h5>FOLLOW US</h5>
               <ul class="list-unstyled d-flex d-inline-flex">
-                <li class="facebook"><a target="_blank" href="https://www.facebook.com/QuickSilverSystemsInc/"><i class="fab fa-2x fa-facebook" aria-hidden="true"></i></a></li>
-                <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/company/quick-silver-systems-inc"><i class="fab fa-2x fa-linkedin" aria-hidden="true"></i></a></li>
-                <li class="google"><a target="_blank" href="https://www.google.com/search?ludocid=9032095931151390510&amp;hl=en&amp;q=Quick%20Silver%20Systems%2C%20Inc.%20621%2067th%20Street%20Circle%20East%20suite%20103%20Bradenton%2C%20Florida%2034208&amp;_ga=2.218541401.1506935928.1536342362-1857878711.1536342362"><i class="fab fa-2x fa-google-plus" aria-hidden="true"></i></a></li>
+                <li class="facebook"><a target="_blank" href="https://www.facebook.com/QuickSilverSystemsInc/"><i class="bi bi-facebook"></i></a></li>
+                <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/company/quick-silver-systems-inc"><i class="bi bi-linkedin"></i></a></li>
+                <li class="google"><a target="_blank" href="https://www.google.com/search?ludocid=9032095931151390510&amp;hl=en&amp;q=Quick%20Silver%20Systems%2C%20Inc.%20621%2067th%20Street%20Circle%20East%20suite%20103%20Bradenton%2C%20Florida%2034208&amp;_ga=2.218541401.1506935928.1536342362-1857878711.1536342362"><i class="bi bi-google"></i></a></li>
                 <li class="yelp"><a target="_blank" href="https://www.yelp.com/biz/quick-silver-systems-bradenton-2"><i class="fab fa-2x fa-yelp" aria-hidden="true"></i></a></li>
                 <li class="glassdoor"><a target="_blank" href="https://www.glassdoor.com/Overview/Working-at-Quick-Silver-Systems-EI_IE2285399.11,31.htm"><img src="https://www.glassdoor.com/pc-app/static/img/partnerCenter/badges/eng_CIRCLE_24x24.png"></a></li>
               </ul>
@@ -555,6 +579,12 @@
         </div>	
       </div>
     </div>
+  </div>
+
+  <div class="footer-bottom" style="background-color: rgb( 20, 58, 121);">
+      <div class="copyrights text-center">
+        <p>Copyright © 2022 EquaSystems S.A.S, Inc. All Rights Reserved.</p>
+      </div>
   </div>
 </footer>
 

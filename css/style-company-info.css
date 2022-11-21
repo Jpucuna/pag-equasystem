@@ -103,7 +103,7 @@ body{
 /* SECTION SLICE-IMAGE  */
 .slice-image{
     position: relative;
-    background: url("../assets/img/imgCarrusel1.jpg") top center no-repeat;
+    background: url("/assets/img/img-company-info/contactUs.jpg") top center no-repeat;
     
 }
 
@@ -115,6 +115,13 @@ body{
 .container-partners{
     padding: 2%;
 }
+
+.info li a{
+    color: #222324;
+}
+
+
+
 
 /* section features */
 .feat-cont{
