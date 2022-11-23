@@ -4,17 +4,25 @@ body{
 }
 
 /* SECTION NAV */   
-
-
 .nav-home{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 0 !important;
 }
 
 #navbarSupportedContent{
     justify-content: flex-end;
+    font-size: 1.5rem;
 }
+ 
+.container-nav{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    justify-content: center;
+}
+
 
 .dropdown-menu.show{
     border: 0;
@@ -61,7 +69,7 @@ body{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    margin-top: 5px;
+    margin-top: 2% !important;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(0, 0, 0);
@@ -90,7 +98,7 @@ body{
 
 .info{
     text-align: center;
-    padding-bottom: 20px;
+    padding: 5% 0;
     color: rgb( 20, 58, 121);
 }
 
@@ -103,13 +111,25 @@ body{
 /* SECTION SLICE-IMAGE  */
 .slice-image{
     position: relative;
-    background: url("/assets/img/img-company-info/contactUs.jpg") top center no-repeat;
+    background: url("/assets/img/img-company-info/contactUs.jpg")  center no-repeat;
+    
+}
+
+.slice-image-infoCompany{
+    position: relative;
+    background: url("/assets/img/img-company-info/partners-image.jpg") center no-repeat;
+    
+}
+
+.slice-image-employee{
+    position: relative;
+    background: url("/assets/img/img-company-info/employee-image.jpg") center no-repeat;
     
 }
 
 /* SECTION INFORMATION-COMPANY */
 .information-company{
-    padding: 80px 0;
+    padding: 0;
 }
 
 .container-partners{
@@ -122,6 +142,42 @@ body{
 
 
 
+.jumbotron{
+    padding: 3rem 1rem;
+    background-color: #F8F9FA;
+    
+}
+
+.map-info-container div{
+    margin-top: 3%;
+}
+
+.map-ubication{
+    padding: 20%;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.cont-information{
+    display: flex;
+    align-items: center;
+}
+
+.cont-information div{
+    margin-top: 2%;
+}
+
+.detail-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.map-details{
+    display: flex;
+    text-align: center;
+}
 
 /* section features */
 .feat-cont{
