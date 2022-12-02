@@ -4,7 +4,6 @@ body{
 }
 
 /* SECTION NAV */   
-
 .nav-home{
     display: flex;
     flex-direction: row;
@@ -17,6 +16,7 @@ body{
     font-size: 1.5rem;
 }
  
+
 .container-nav{
     margin-left: 2%;
     margin-right: 2%;
@@ -28,7 +28,6 @@ body{
 .dropdown-menu.show{
     border: 0;
 }
-
 
 .equa-information{
     display: flex;
@@ -74,6 +73,14 @@ body{
     left:0
 }
 
+.curved {
+    position: relative;
+    background: #ad3131;
+    height: 50vh;
+    border-bottom-left-radius: 50% 32%;
+    border-bottom-right-radius: 50% 32%;
+  }
+
 
 /* Section info-equasystem */
 
@@ -91,6 +98,7 @@ body{
     font-size: 100%;
     color: #222324;
 }
+
 
 .phone, .email{
     display: flex;
@@ -111,7 +119,7 @@ body{
 
 .info{
     text-align: center;
-    padding-bottom: 20px;
+    padding: 5% 0;
     color: rgb( 20, 58, 121);
 }
 
@@ -124,17 +132,72 @@ body{
 /* SECTION SLICE-IMAGE  */
 .slice-image{
     position: relative;
-    background: url("../assets/img/imgCarrusel1.jpg") top center no-repeat;
+    background: url("/assets/img/img-company-info/contactUs.jpg")  center no-repeat;
+    
+}
+
+.slice-image-infoCompany{
+    position: relative;
+    background: url("/assets/img/img-company-info/partners-image.jpg") center no-repeat;
+    
+}
+
+.slice-image-employee{
+    position: relative;
+    background: url("/assets/img/img-company-info/employee-image.jpg") center no-repeat;
     
 }
 
 /* SECTION INFORMATION-COMPANY */
 .information-company{
-    padding: 80px 0;
+    padding: 0;
 }
 
 .container-partners{
     padding: 2%;
+}
+
+.info li a{
+    color: #222324;
+}
+
+
+
+.jumbotron{
+    padding: 3rem 1rem;
+    background-color: #F8F9FA;
+    
+}
+
+.map-info-container div{
+    margin-top: 3%;
+}
+
+.map-ubication{
+    padding: 20%;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.cont-information{
+    display: flex;
+    align-items: center;
+}
+
+.cont-information div{
+    margin-top: 2%;
+}
+
+.detail-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.map-details{
+    display: flex;
+    text-align: center;
 }
 
 /* section features */
