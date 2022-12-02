@@ -28,6 +28,16 @@ body{
     border: 0;
 }
 
+.equa-information{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 1% !important;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+}
+
 /* SECTION SLICE-IMAGE */
 .welcome{
     color: rgb(255, 255, 255);
@@ -61,6 +71,14 @@ body{
     top:0;
     left:0
 }
+
+.curved {
+    position: relative;
+    background: #ad3131;
+    height: 50vh;
+    border-bottom-left-radius: 50% 32%;
+    border-bottom-right-radius: 50% 32%;
+  }
 
 
 /* Section info-equasystem */
