@@ -130,7 +130,7 @@ body{
 
 /* SECTION INFORMATION-COMPANY */
 .information-company{
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .container-partners{
@@ -181,7 +181,6 @@ cursor: pointer ;
 
 /* Section Reviews */
 
-
 .review{
     display: flex;
     flex-direction: column;
@@ -209,7 +208,7 @@ cursor: pointer ;
 }
 
 .col-lg-4{
-    margin-bottom: 10%;
+    margin-bottom: 6%;
 }
 
 
